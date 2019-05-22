@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="OrmTicaretDataContext">
+  <DataContextMoniker Name="/OrmTicaretDataContextDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7cdf5b37-e100-4ba5-b9b1-9a56a75ac2ce" absoluteBounds="3.5, 2.125, 2, 2.5401025390624996">
+      <DataClassMoniker Name="/OrmTicaretDataContextDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c438b780-d885-466f-a5eb-36bfc93d6e3b" absoluteBounds="3.515, 2.585, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dd2bda20-db0c-41a8-b765-be972c0223ea" absoluteBounds="0.75, 2.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/OrmTicaretDataContextDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b459eb55-6324-40dc-8177-19328dbe587c" absoluteBounds="0.765, 3.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="402942de-4421-4f42-97ab-f728957d2960" absoluteBounds="0.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/OrmTicaretDataContextDataContext/Brand" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c490549b-a63e-4101-b830-5f704646f026" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 3.34699625651042); (3.5 : 3.34699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/OrmTicaretDataContextDataContext/Category/Category_Product" />
+      <nodes>
+        <classShapeMoniker Id="dd2bda20-db0c-41a8-b765-be972c0223ea" />
+        <classShapeMoniker Id="7cdf5b37-e100-4ba5-b9b1-9a56a75ac2ce" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.34699625651042); (4.5 : 1.34699625651042); (4.5 : 2.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/OrmTicaretDataContextDataContext/Brand/Brand_Product" />
+      <nodes>
+        <classShapeMoniker Id="402942de-4421-4f42-97ab-f728957d2960" />
+        <classShapeMoniker Id="7cdf5b37-e100-4ba5-b9b1-9a56a75ac2ce" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="fac3a86c-3461-4a73-b5b1-af4adf82a420" absoluteBounds="6.125, 3.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/OrmTicaretDataContextDataContext/UsersData" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f90690f1-908b-457d-b29b-f512cdde336c" absoluteBounds="6.14, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2f906f07-ce47-422b-b636-29cffc322597" absoluteBounds="6, 0.875, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/OrmTicaretDataContextDataContext/ContactData" />
+      <nestedChildShapes>
+        <elementListCompartment Id="504a92fe-8b16-4021-861a-1c3c3426b372" absoluteBounds="6.0150000000000006, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

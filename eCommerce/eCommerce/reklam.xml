@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~\images\icons\apple.png</ImageUrl>
+    <NavigateUrl>~\Default.aspx</NavigateUrl>
+    <Impressions>50</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~\images\icons\huawei.jpg</ImageUrl>
+    <NavigateUrl>~\Default.aspx</NavigateUrl>
+    <Impressions>50</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~\images\icons\samsung.png</ImageUrl>
+    <NavigateUrl>~\Default.aspx</NavigateUrl>
+    <Impressions>50</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~\images\icons\hp.jpg</ImageUrl>
+    <NavigateUrl>~\Default.aspx</NavigateUrl>
+    <Impressions>50</Impressions>
+  </Ad>
+</Advertisements>

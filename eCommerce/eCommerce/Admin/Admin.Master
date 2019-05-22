@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="eCommerce.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Admin Panel </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style>
+        a {
+            color: orange;
+            text-decoration: none;
+        }
+    </style>
+
+    <link href="../Admin_Script/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div id="header" style="width: 100%; height: 100%; font-size: xx-large; font-family: Consolas; color: orange; background-color: #0094ff; top: 0px; left: 20px; float: left; margin: 0px; padding: 20px; font-weight: 900;">
+            Ayvansaray Üniversitesi 
+            <span style="font-size: medium;">| E-Ticaret | <a href='<%=ResolveClientUrl("~/Default.aspx") %>'>User Panel</a> | <a href='<%=ResolveClientUrl("Default.aspx") %>'>Admin Panel</a>
+            </span>
+        </div>
+
+        <div>
+            <ul id="nav">
+                <li id="nav-1"><a href='<%= ResolveClientUrl("~/Admin/Categories.aspx") %>'>Kategoriler</a></li>
+                <li id="nav-2"><a href='<%= ResolveClientUrl("~/Admin/Products.aspx") %>'>Urunler</a></li>
+                <li id="nav-3"><a href='<%= ResolveClientUrl("~/Admin/Brands.aspx") %>'>Markalar</a></li>
+
+            </ul>
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
